@@ -1,0 +1,11 @@
+[package]
+name = "bell_qmc_tfim_1d"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+prng_mt = "0.1.0"
+
+[profile.release]
+opt-level = 3
+lto = true
